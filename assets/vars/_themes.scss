@@ -1,0 +1,40 @@
+$dark-theme: (
+  /* Primary */
+  primary: #bb86fc,
+  on-primary: #000000,
+  /* Secondary */
+  secondary: #03dac6,
+  on-secondary: #000000,
+  /* Default */
+  default: #686868,
+  on-default: #ffffff,
+  /* Text */
+  text: #d3d3d3,
+  on-text: #ffffff,
+  /* Error */
+  error: #cf6679,
+  on-error: #000000
+);
+
+$light-theme: (
+  /* Primary */
+  primary: #7485f6,
+  on-primary: #ffffff,
+  /* Secondary */
+  secondary: #028f81,
+  on-secondary: #ffffff,
+  /* Default */
+  default: #d3d3d3,
+  on-default: #ffffff,
+  /* Text */
+  text: #686868,
+  on-text: #ffffff,
+  /* Error */
+  error: #b00020,
+  on-error: #ffffff
+);
+
+$component-themes: ('light', 'dark');
+$component-colors: ('primary', 'secondary', 'error', 'default');
+$theme-list: (dark: $dark-theme, light: $light-theme);
+$theme: 'light';

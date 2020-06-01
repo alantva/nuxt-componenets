@@ -1,0 +1,19 @@
+$BasicTableRowColor: t($theme, 'text');
+$BasicTableColumnOddColor: lighten(t($theme, 'default'), 10%);
+$BasicTableColumnEvenColor: lighten(t($theme, 'default'), 20%);
+
+%BasicTableColumnOdd {
+  padding: 5px;
+  background-color: $BasicTableColumnOddColor;
+}
+
+%BasicTableColumnEven {
+  padding: 5px;
+  background-color: $BasicTableColumnEvenColor;
+}
+
+%BasicTableRow {
+  color: $BasicTableRowColor;
+  height: 3em;
+  line-height: 1em;
+}

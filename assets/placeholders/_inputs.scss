@@ -1,0 +1,26 @@
+%CCInputShape {
+  border-radius: 2px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+%CCInputSize {
+  width: 100%;
+  padding: 8px 10px;
+}
+
+%CCInputTransition {
+  transition: background-color 0.2s ease-in;
+}
+
+%CCInputColors {
+  $color: t($theme, 'text');
+  $on-color: t($theme, 'on-text');
+
+  color: $color;
+  background-color: darken($on-color, 5%);
+
+  &:focus {
+    background-color: $on-color;
+  }
+}

@@ -1,0 +1,15 @@
+.cc__editable-row {
+  @extend %BasicTableRow;
+
+  &:nth-child(odd) {
+    td {
+      @extend %BasicTableColumnOdd;
+    }
+  }
+
+  &:nth-child(even) {
+    td {
+      @extend %BasicTableColumnEven;
+    }
+  }
+}

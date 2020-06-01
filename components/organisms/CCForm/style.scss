@@ -1,0 +1,13 @@
+.cc__form {
+  display: flex;
+  flex-flow: row wrap;
+  width: 90vw;
+}
+.cc__form-field {
+  display: flex;
+  flex-flow: column nowrap;
+
+  &:not(:last-child) {
+    margin-right: 10px !important;
+  }
+}

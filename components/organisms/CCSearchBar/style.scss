@@ -1,0 +1,15 @@
+.cc__search-bar {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-end;
+
+  &__wrapper {
+    display: flex;
+
+    &:not(:last-child),
+    > :not(:last-child) {
+      margin-right: 10px !important;
+    }
+  }
+}
