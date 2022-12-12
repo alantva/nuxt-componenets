@@ -17,7 +17,7 @@
     "@nuxtjs/moment": "^1.6.0",
     "@nuxtjs/style-resources": "^1.0.0",
     "cross-env": "^5.2.0",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "nuxt": "^2.0.0",
     "v-money": "^0.8.1",
     "vue2-datepicker": "^3.4.1"
